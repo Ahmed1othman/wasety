@@ -5,11 +5,10 @@
 
 # Node artifact files
 node_modules/
-dist/
-
+public/storage
 # Compiled Java class files
 *.class
-
+.env
 # Compiled Python bytecode
 *.py[cod]
 
@@ -22,6 +21,7 @@ dist/
 # Maven
 target/
 dist/
+vendor/
 
 # JetBrains IDE
 .idea/
@@ -47,4 +47,5 @@ Thumbs.db
 *.flv
 *.mov
 *.wmv
+.env
 
